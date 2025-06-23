@@ -7,5 +7,3 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
       - run: echo "$(cat hello-world.txt)"
-
-      # comment
